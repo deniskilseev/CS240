@@ -1,0 +1,8 @@
+File Type 	Extension 	Signature		Signature offset
+Executable 	None		7F 45 4C 46 	
+WAV File 	wav		52 49 46 46 74 75 	57 41 56 45 66 
+JPEG 		
+GIF 		gif		47 49 46 ...
+TAR 		tar 		75 73 74 61 72 00 30 30
+ZIP 		zip		1F 1D
+

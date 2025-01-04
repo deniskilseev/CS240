@@ -1,0 +1,35 @@
+#include <stdio.h>
+//
+
+int
+main(int argc, char **argv) {
+  printf("Welcome to the High Low game...\n");
+	
+	int high = 100;
+	int low = 1; 
+	int mid;
+	char chr;
+	
+while (1) {
+	printf("Think of a number between 1 and 100 and press <enter>\n");
+	while (high >= low) {
+		mid = (high+low)/2;
+		printf("Is it higher than %d\n",mid);		
+		scanf("%c",&chr);
+		if (chr == 'y') {
+			low = mid +1;
+			}		
+		if (chr == 'n') {
+			high = mid -1;
+			}
+		}	
+	printf(">>>>>> The number is %d",mid);
+	printf("Do you want to continue playing? (y/n)?";
+	scanf("%c",chr);
+	if (chr == 'n') {
+	printf("Thanks for playing!");
+	}
+	}
+
+}
+
